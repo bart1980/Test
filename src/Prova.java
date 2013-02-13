@@ -12,7 +12,7 @@ public class Prova {
 	 * @throws ParseException 
 	 */
 	public static void main(String[] args) throws ParseException {
-		  String dataInizioCall = "2013-01-11 15:01:59";
+		  String dataInizioCall = "2013-01-11 15:01:58";
 		  SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		  Calendar inizio = Calendar.getInstance();
 		  inizio.setTime( sdf1.parse( dataInizioCall ) );
